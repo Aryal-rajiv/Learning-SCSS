@@ -1,0 +1,14 @@
+@mixin mainprop {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(black,#1C0707);
+}
+
+@mixin textprop($val,$case) {
+    letter-spacing: $val;
+    text-transform: $case
+    
+}

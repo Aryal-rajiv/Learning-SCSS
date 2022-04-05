@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5px;
+}
+
+.main_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#1C0707));
+  background: linear-gradient(black, #1C0707);
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_header h1 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  color: white;
+  font-size: 2rem;
+}
+
+.main_header h1:hover {
+  color: red;
+}
+
+.main_header p {
+  letter-spacing: 0.2rem;
+  text-transform: lowercase;
+  color: white;
+  font-size: 1rem;
+}
+
+.main_header p:hover {
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */

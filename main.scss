@@ -1,0 +1,43 @@
+@import "mixin";
+@import "var";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5px;
+}
+
+
+
+.main_header{
+
+    @include mainprop;
+    height: 100vh;
+    width: 100vw;
+    h1{
+        @include textprop(0.1rem,capitalize);
+        color: $text-color;
+        font-size: 1rem + 1rem;
+    }
+    h1:hover{
+        color:red
+    }
+    p{
+        @include textprop(.2rem,lowercase);
+        color: $text-color;
+        font-size: 0.5rem + 0.5rem;
+        &:hover{
+            color: green;
+        }
+    }
+}
+
+//operators
+//variable
+//nesting
+//mixing
+//parameters
+//partials
